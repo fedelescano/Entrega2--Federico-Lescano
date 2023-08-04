@@ -1,42 +1,35 @@
-.Encabezado{
-    background-color: aqua;
-    position: sticky;
-    margin-right:100px; /*Disminuye los margenes, en este caso el izquierdo*/
-
-}
-
-.Encabezado .cabecera{
-    background-color:rgb(172, 154, 123);
-    font-size: 100%; /*Medida de longitud del texto*/
-    border: 5px solid black;
-   
-}
-
-.Encabezado .navegacion {
-    text-align: right; /*se desplaza el texto a la izquiera*/    
-}
-
-.Encabezado h1 {
-   font-size: 40px;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   
-}
-.form_control {
- position: relative;
- bottom: 40px;
- left: 40px;
- margin-left: 75%; /*Disminuye los margenes, en este caso el derecho*/
-}
-
-.navegacion ul li{
-    display: inline; /*convierte las filtas en lineas*/
-    margin: 10%;   
+.encabezado {
+  background-color: aqua;
 }
 
 .logo img {
     width: 40px; /*Reduce el tamaño de la imagen*/
 }
 
-.logo span {
+.encabezado .navegacion {
+    text-align: right; /*se desplaza el texto a la izquiera*/ 
+    background-color: beige;
+    padding-top: 1%;
+    text-align:justify;
+}
+
+.encabezado h1{
     font-size: 40px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.encabezado .logo{
+    font-size: 40px;
+}
+
+.form_control {
+    position: relative;
+    bottom: 40px;
+    left: 40px;
+    margin-left: 75%; /*Disminuye los margenes, en este caso el derecho*/
+   }
+
+.navegacion ul li{
+    display: inline; /*convierte las filtas en lineas*/
+    margin: 10%;   
 }
