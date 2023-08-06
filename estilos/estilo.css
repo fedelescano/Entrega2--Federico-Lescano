@@ -1,9 +1,11 @@
 .encabezado {
   background-color: aqua;
+  margin-bottom: -100px;
+  padding-right: 70;
 }
 
 .logo img {
-    width: 40px; /*Reduce el tamaño de la imagen*/
+    width: 50px; /*Reduce el tamaño de la imagen*/
 }
 
 .encabezado .navegacion {
@@ -14,7 +16,7 @@
 }
 
 .encabezado h1{
-    font-size: 40px;
+   font-size: 40px;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -24,12 +26,22 @@
 
 .form_control {
     position: relative;
-    bottom: 40px;
-    left: 40px;
+    bottom: 50px;
     margin-left: 75%; /*Disminuye los margenes, en este caso el derecho*/
    }
 
 .navegacion ul li{
     display: inline; /*convierte las filtas en lineas*/
-    margin: 10%;   
+    margin-inline:100px; 
+    margin-top:  100px;
+}
+.foto1 img{
+    width: 40%;
+    display: flex;   
+}
+
+.foto2 img{
+    width:40%;
+    margin-left:50%;
+    margin-top:-500px;
 }
