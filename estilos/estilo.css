@@ -4,15 +4,21 @@
   padding-right: 70;
 }
 
+.encabezado .navegacion .navegador {
+    margin-left: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .logo img {
     width: 50px; /*Reduce el tamaño de la imagen*/
 }
 
 .encabezado .navegacion {
     text-align: right; /*se desplaza el texto a la izquiera*/ 
-    background-color: beige;
+    background-color: rgb(139, 178, 232);
     padding-top: 1%;
     text-align:justify;
+    border-style: inset;
+    border-color:aqua;    
 }
 
 .encabezado h1{
@@ -34,14 +40,68 @@
     display: inline; /*convierte las filtas en lineas*/
     margin-inline:100px; 
     margin-top:  100px;
+    background-color: rgb(139, 178, 232);
+    border-style: groove;
+    border-radius: 50%;
 }
+
+.content h4 {
+  color: blue;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+
 .foto1 img{
     width: 40%;
     display: flex;   
+    border-style: inset;
+    border-color: black;
 }
 
 .foto2 img{
     width:40%;
     margin-left:50%;
     margin-top:-500px;
+    border-style: inset;
+    border-color: black;
+}
+
+.foto3 img{
+    width: 15%;
+    display: flex;   
+    border-style: inset;
+    margin-left: 5%;
+    border-color: black;
+}
+.foto4 img{
+    width: 15%;
+    display: flex;   
+    border-style: inset;
+    border-color: black;
+    margin-left: 25%;
+    margin-top:-115px;
+}
+
+.foto5 img{
+    width: 15%;
+    display: flex;   
+    border-style: inset;
+    border-color: black;
+    margin-left: 45%;
+    margin-top:-115px;
+}
+
+.foto6 img{
+    width: 15%;
+    display: flex;   
+    border-style: inset;
+    border-color: black;
+    margin-left: 65%;
+    margin-top:-135px;
+}
+
+.final {
+    background-color: rgb(139, 178, 232);
+    text-align: center;    
 }
