@@ -3,30 +3,54 @@
    }
 
 .cabecera .navegacion {
-background-color:aqua;    
+background-color:aqua; 
+text-align: right;  
 }
 
 .cabecera .navegacion p{
     background-color: white;
     border-style:outset;
-    margin-right: 90%;    
-}
-
-.cabecera .navegador {
-    text-align: right;
+    margin-right: 90%;  
+    display: inline-block;  
 }
 
 .cabecera h1{
+position: relative;
 text-align: center;
-margin-bottom: -70px;
+top: 70px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .cabecera img {
     margin-bottom: 60px;
     margin-left: 200px;
-    width: 50px;
-    margin-top: 35px;
-    padding-left: 10%;
-    padding-bottom: -5%;
-  
+    width: 80px;
+    margin-top: -10px;
+    padding-left: 10%; 
+}
+
+.link {
+display: inline;
+position: relative;
+background-color: white;
+border-style:outset;
+bottom: 35px;
+right: 20px;
+}
+
+.enlaces .navegador {
+    text-align: center;
+    margin-block: 50px;
+        
+}
+
+.form_control {
+
+    background-color: gray;
+    border-color: black;
+    border-style:ridge;
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+    
 }
