@@ -79,3 +79,56 @@
     margin: 20px;
     word-spacing: 50px;
 }
+
+.content img {
+    margin: 20px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid ;
+
+}
+
+.content .foto1 img {
+    position: relative;
+    bottom: 60px;
+    width:50%;
+    height:150px;
+    margin-left: 300px;  
+}
+.content .foto2 img {
+    position: relative;
+    bottom: 60px;
+    width:50%;
+    height:150px;
+    margin-left: 300px;
+}
+.content .foto3 img {
+    position: relative;
+    bottom: 60px;
+    width:50%;
+    height:150px;
+    margin-left: 300px;
+}
+.content .foto4 img {
+    position: relative;
+    bottom: 60px;
+    width:50%;
+    height:150px;
+    margin-left: 300px;   
+}
+
+.cabecera h1{
+    position: relative;
+    text-align: center;
+    font-style: oblique;
+}
+
+.navegacion1 ul li {
+    position: relative;
+    left: 90%;
+    bottom: 100px;  
+}
+
+.cabecera .titulo1 {
+    padding:10px;
+}
