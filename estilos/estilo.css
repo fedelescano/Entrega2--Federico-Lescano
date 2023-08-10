@@ -85,7 +85,22 @@
     border-radius: 20px;
     border-color: black;
     border-style: solid ;
+}
 
+.cabecera h1{
+    position: relative;
+    text-align: center;
+    font-style: oblique;
+}
+
+.navegacion1 ul li {
+    position: relative;
+    left: 90%;
+    bottom: 100px;  
+}
+
+.cabecera .titulo1 {
+    padding:10px;
 }
 
 .content .foto1 img {
@@ -117,11 +132,7 @@
     margin-left: 300px;   
 }
 
-.cabecera h1{
-    position: relative;
-    text-align: center;
-    font-style: oblique;
-}
+/*Reproductor de Videos*/
 
 .navegacion1 ul li {
     position: relative;
@@ -129,6 +140,28 @@
     bottom: 100px;  
 }
 
-.cabecera .titulo1 {
-    padding:10px;
+.video1 {
+    width: 35%;
+}
+.video2 {
+    width: 35%;
+}
+.video3 {
+    width: 35%;
+}
+.video4 {
+    width: 35%;
+}
+
+.Reproductor{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 20px;
+    align-items:flex-start;
+    justify-content: center;
+    margin-top: -20px;
+    
 }
