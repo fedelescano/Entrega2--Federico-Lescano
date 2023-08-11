@@ -194,3 +194,52 @@
     margin-right: 10%;
 }
     
+/*Paginas web*/
+
+.content_paginas{
+    position: relative;
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 20px;
+    align-items:flex-start;
+    justify-content: center;
+    margin-top: -20px; 
+    }
+
+.hidropool {
+    width: 170px;
+    height: 170px;
+    background-color: gray;
+    border-radius: 50%;
+    text-align: center;
+    tex
+    
+    }
+
+.hidrosol {
+    width: 170px;
+    height: 170px;
+    background-color: gray;
+    border-radius: 50%; /* Esto crea la forma de círculo */
+    text-align: center;
+    }
+
+.securepool {
+    width: 170px;
+    height: 170px;
+    background-color: gray;
+    border-radius: 50%; /* Esto crea la forma de círculo */
+    text-align: center;
+    }
+
+.babysafe {
+    width: 170px;
+    height: 170px;
+    background-color: gray;
+    border-radius: 50%; /* Esto crea la forma de círculo */
+    text-align: center;
+    }
+
+
+
