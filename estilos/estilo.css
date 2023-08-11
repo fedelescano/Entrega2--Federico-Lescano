@@ -162,6 +162,35 @@
     gap: 20px;
     align-items:flex-start;
     justify-content: center;
-    margin-top: -20px;
-    
+    margin-top: -20px;   
 }
+
+/*Imagenes de productos*/
+
+.content .texto1{
+    background-color: gray;
+    border-style:double;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:10%;
+    margin-right: 10%;
+}
+    
+.content .texto2{
+    background-color: gray;
+    border-style:double;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:10%;
+    margin-right: 10%;
+}
+    
+.content .texto3{
+    background-color: gray;
+    border-style:double;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:10%;
+    margin-right: 10%;
+}
+    
