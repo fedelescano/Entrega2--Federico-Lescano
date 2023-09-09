@@ -25,14 +25,13 @@
     grid-area: link;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-     
+    justify-content: center;     
 }
-
+ 
 .navegacion1 {
     display: grid;
     grid-template-areas: 
-         "logo logo titulo ";
+    "logo logo titulo ";
     grid-template-rows: 10px 10px;
     grid-template-columns: repeat(5, 1fr);
     gap: 16px;
@@ -40,7 +39,8 @@
     text-align:center;
     align-items: center;
     height: 15px; 
-    padding: 20px; 
+    padding: 20px;
+    
 }
 .logo{
     grid-area:logo;
@@ -56,8 +56,6 @@
     text-align: center;  
 }
 
-
-
 .enlaces{
     display: grid;
     grid-template-areas: 
@@ -65,8 +63,7 @@
     "nav-rigth nav-rigth";
     grid-template-rows: 50px 50px;
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .nav-left{
@@ -83,23 +80,73 @@
 }
 
 .seccion_contacto {
+    display: grid;
+    grid-template-rows:15px;
     background-color: gray;
     border-color: black;
     border-style:ridge;
     padding: 20px;
-    margin-left: 25%;
+    margin-inline:25%;
     width: 50%;
     height: 50%;   
 }
-
 .form_control{
-    text-align: center;
+    grid-area:form_control;
+    display:contents;
+    text-align:justify;
 }
+
+
 .pie_de_pagina {
-    background-color: aqua;
-    margin-top: 100px;
-    text-align: center;
+    display: grid;
+    background-color:aqua; 
+    text-align:center;
+    margin-top: 60px;      
 }
+
+@media (min-width: 1025px) { 
+    .navegacion{
+        grid-template-areas:/*Se ubican los elemetos html de nuestra pagina web dentro de una cuadricula*/
+        "nav-1 nav-1 nav-1 link link link";
+        grid-template-rows: 50px;
+        grid-template-columns: repeat(6, 1fr);
+        align-items:center;
+        display: flex;
+        justify-content: space-around;
+    }
+    .navegacion1{
+        grid-template-areas:/*Se ubican los elemetos html de nuestra pagina web dentro de una cuadricula*/
+        "logo  logo logo titulo titulo titulo";
+        grid-template-columns: repeat(6, 1fr);
+        display: flex;
+        justify-content: center;            
+    }
+    .enlaces{
+        grid-template-areas:
+        "nav-left nav-left nav-rigth nav-rigth";
+        grid-template-columns: repeat(4, 1fr);
+        flex-direction: row;
+        justify-content: space-around;       
+    }
+    .seccion_contacto {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows:10px;
+        background-color: gray;
+        border-color: black;
+        border-style:ridge;
+        padding: 10px;
+        justify-content: center;
+        width: 50%;
+        height: 50%; 
+        gap:5px;
+        font-size: 20px;   
+    }
+    .pie_de_pagina{
+        text-align:center;
+        margin-top: 60px;
+    }
+}
+
 
 /*Imagenes de productos*/
 
@@ -209,31 +256,4 @@
     }
 
     
-    @media (min-width: 1025px) { 
-        .navegacion{
-            grid-template-areas:/*Se ubican los elemetos html de nuestra pagina web dentro de una cuadricula*/
-            "nav-1 nav-1 nav-1 link link link";
-            grid-template-rows: 50px;
-            grid-template-columns: repeat(6, 1fr);
-            align-items:center;
-            display: flex;
-            justify-content: space-around;
-        }
-        .navegacion1{
-            grid-template-areas:/*Se ubican los elemetos html de nuestra pagina web dentro de una cuadricula*/
-            "logo  logo logo titulo titulo titulo";
-            grid-template-columns: repeat(6, 1fr);
-            display: flex;
-            justify-content: center;
-                    
-        }
-        .enlaces{
-            grid-template-areas:
-            "nav-left nav-left nav-rigth nav-rigth";
-            grid-template-columns: repeat(4, 1fr);
-            flex-direction: row;
-            justify-content: space-around;       
-        }
-    }
-
-
+    
