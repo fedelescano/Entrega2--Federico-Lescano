@@ -1,3 +1,5 @@
+/*Index Home*/
+
 .cabecera {
     background-color: rgb(0, 183, 255);
    }
@@ -148,7 +150,7 @@
 }
 
 
-/*Imagenes de productos*/
+/*PRODUCTOS IMAGENES*/
 
 .enlaces .navegador_galeria {
     text-align: center;
@@ -212,7 +214,7 @@
     margin-top: -20px;   
 }
 
-/*Imagenes de productos*/
+/*Mantenimiento*/
 
 .content .texto1{
     background-color: gray;
