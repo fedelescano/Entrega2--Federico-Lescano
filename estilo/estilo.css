@@ -1,5 +1,29 @@
 /*Index Home*/
 
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(214, 209, 209);
+    position: relative;
+    padding-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    background-color:aqua; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
 .cabecera {
     background-color: rgb(0, 183, 255);
    }
@@ -39,9 +63,11 @@
     gap: 16px;
     background-color:rgb(29, 126, 126); 
     text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-items: center;
     height: 15px; 
     padding: 20px;
+    
     
 }
 .logo{
@@ -101,7 +127,7 @@
 
 .pie_de_pagina {
     display: grid;
-    background-color:aqua; 
+    
     text-align:center;
     margin-top: 60px;      
 }
@@ -143,10 +169,7 @@
         gap:5px;
         font-size: 20px;   
     }
-    .pie_de_pagina{
-        text-align:center;
-        margin-top: 60px;
-    }
+    
 }
 
 /*Mantenimiento*/
@@ -200,11 +223,11 @@
         grid-template-columns: repeat(4, 1fr);
         flex-direction: row;
         justify-content: space-around;            
-    }
-    
+    }   
 }
 
-/*PRODUCTOS IMAGENES*/
+
+/*IMAGENES*/
 
 .enlaces .navegador_galeria {
     text-align: center;
@@ -243,33 +266,33 @@
     margin-left: 300px;  
 }
  
-.enlaces-gal{
+.enlaces-img{
     display: grid;
     grid-template-areas: 
-    "gal-left gal-left"
-    "gal-rigth gal-rigth";
+    "img-left img-left"
+    "img-rigth img-rigth";
     grid-template-rows: 50px 50px;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;    
 }
 
-.gal-left{
-    grid-area:gal-left;
+.img-left{
+    grid-area:img-left;
     display: flex;
     flex-direction:row;
     justify-content:space-around;
 }
-.gal-rigth{
-    grid-area:gal-rigth;
+.img-rigth{
+    grid-area:img-rigth;
     display: flex;
     flex-direction:row;
     justify-content:space-around;
 }
 
 @media (min-width: 1025px) {
-    .enlaces-gal{
+    .enlaces-img{
        grid-template-areas:
-        "gal-left gal-left gal-rigth gal-rigth";
+        "img-left img-left img-rigth img-rigth";
         grid-template-columns: repeat(4, 1fr);
         flex-direction: row;
         justify-content: space-around;            
@@ -279,11 +302,6 @@
 
 /*Reproductor de Videos*/
 
-.navegacion1 ul li {
-    position: relative;
-    left: 90%;
-    bottom: 100px;  
-}
 
 .video1, .video2, .video3, .video4 {
     width: 35%;
@@ -301,8 +319,40 @@
     margin-top: -20px;   
 }
 
+.enlaces-vid{
+    display: grid;
+    grid-template-areas: 
+    "vid-left vid-left"
+    "vid-rigth vid-rigth";
+    grid-template-rows: 50px 50px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;    
+}
 
-    
+.vid-left{
+    grid-area:vid-left;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.vid-rigth{
+    grid-area:vid-rigth;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+@media (min-width: 1025px) {
+    .enlaces-vid{
+       grid-template-areas:
+        "vid-left vid-left vid-rigth vid-rigth";
+        grid-template-columns: repeat(4, 1fr);
+        flex-direction: row;
+        justify-content: space-around;            
+    }    
+}
+
+ 
 /*Paginas web*/
 
 .content_paginas{
@@ -325,5 +375,37 @@
     text-align: center;
     }
 
+    .enlaces-pag{
+        display: grid;
+        grid-template-areas: 
+        "pag-left pag-left"
+        "pag-rigth pag-rigth";
+        grid-template-rows: 50px 50px;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;    
+    }
+    
+    .pag-left{
+        grid-area:pag-left;
+        display: flex;
+        flex-direction:row;
+        justify-content:space-around;
+    }
+    .pag-rigth{
+        grid-area:pag-rigth;
+        display: flex;
+        flex-direction:row;
+        justify-content:space-around;
+    }
+    
+    @media (min-width: 1025px) {
+        .enlaces-pag{
+           grid-template-areas:
+            "pag-left pag-left pag-rigth pag-rigth";
+            grid-template-columns: repeat(4, 1fr);
+            flex-direction: row;
+            justify-content: space-around;            
+        }    
+    }
     
     
