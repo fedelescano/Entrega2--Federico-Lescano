@@ -149,6 +149,69 @@
     }
 }
 
+/*Mantenimiento*/
+
+.content .texto1{
+    background-color: gray;
+    border-style:double;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:10%;
+    margin-right: 10%;
+}
+    
+.content .texto2, .content .texto3 {
+    background-color: gray;
+    border-style:double;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:10%;
+    margin-right: 10%;
+}
+ 
+.Titulo-man {
+    flex-direction: row;
+    justify-content:center;
+   
+    
+      
+}
+.enlaces-nav{
+    display: grid;
+    grid-template-areas: 
+    "man-left man-left"
+    "man-rigth man-rigth";
+    grid-template-rows: 50px 50px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;    
+}
+.man-left{
+    grid-area:nav-left;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.man-rigth{
+    grid-area:nav-rigth;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+ 
+@media (min-width: 1025px) {
+    .enlaces-nav{
+        grid-template-areas:
+        "man-left man-left man-rigth man-rigth";
+        grid-template-columns: repeat(4, 1fr);
+        flex-direction: row;
+        justify-content:space-between;       
+    }
+    .Titulo-man{
+        display:grid;
+        justify-content: center;
+          
+    }
+}
 
 /*PRODUCTOS IMAGENES*/
 
@@ -214,26 +277,7 @@
     margin-top: -20px;   
 }
 
-/*Mantenimiento*/
 
-.content .texto1{
-    background-color: gray;
-    border-style:double;
-    border-color: black;
-    border-radius: 10px;
-    margin-left:10%;
-    margin-right: 10%;
-}
-    
-.content .texto2, .content .texto3 {
-    background-color: gray;
-    border-style:double;
-    border-color: black;
-    border-radius: 10px;
-    margin-left:10%;
-    margin-right: 10%;
-}
-    
     
 /*Paginas web*/
 
